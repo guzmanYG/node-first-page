@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Archivos de logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Entornos y variables
+.env
+.env.*.local
+.env.local
+
+# Directorios de builds
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+
+# PM2 runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+.nyc_output/
+
+# Archivos generados por testing
+jest-test-results.json
+test-results.xml
+
+# Archivos de lock opcionales (elige uno)
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
